@@ -1,0 +1,26 @@
+{
+    "name": "gangmon/composer",
+    "description": "a test composer project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gang",
+            "email": "facck@sina.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "gregwar/captcha": "dev-master"
+    },
+    "autoload":{
+        "files":[
+            "core/functions.php"
+        ],
+        "psr-4":{
+            "core\\":"core",
+            "web\\":"web"
+        }
+
+    }
+}
